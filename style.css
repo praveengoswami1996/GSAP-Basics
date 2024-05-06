@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #111;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+#box1 {
+    background-color: crimson;
+}
+
+#box2 {
+    background-color: chartreuse;
+}
+
+#box3 {
+    background-color: gold;
+}
+
+#box4 {
+    background-color: blueviolet;
+}
+
+#box5 {
+    background-color: aquamarine;
+}
+
+#box6 {
+    background-color: skyblue;
+}
+
+.heading-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+.heading-container h1 {
+    width: 80%;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    background-color: blue;
+}
+
+.heading-container-1 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+.heading-container-1 h1 {
+    width: 80%;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    background-color: lightseagreen;
+}
+
+#gsap-timeline-section-heading {
+    font-size: 70px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.timeline-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.timeline-container #box7 {
+    width: 250px;
+    height: 250px;
+    background-color: darkviolet;
+}
+
+.timeline-container #box8 {
+    width: 250px;
+    height: 250px;
+    background-color: magenta; 
+}
+
+.timeline-container #box9 {
+    width: 250px;
+    height: 250px;
+    background-color: darkgreen;
+}

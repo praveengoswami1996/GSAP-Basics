@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAP Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="box1" class="box">
+      `gsap.to("#box1", {
+        x: 1000,
+        duration: 5,
+        delay: 1
+      })`
+    </div>
+
+    <div id="box2" class="box">
+      `gsap.from("#box2", {
+        x: 1000,
+        duration: 5,
+        delay: 1
+      })`
+    </div>
+
+    <div id="box3" class="box">
+        `gsap.to("#box3", {
+            x: 1000,
+            duration: 3,
+            delay: 1,
+            rotate: 360,
+            backgroundColor: "pink",
+        })`
+    </div>
+
+    <div id="box4" class="box">
+        `gsap.to("#box4", {
+            x: 1000,
+            duration: 6,
+            delay: 1,
+            rotate: 360,
+            backgroundColor: "gold",
+            borderRadius: "60%",
+        })`
+    </div>
+
+    <div id="box5" class="box">
+        `gsap.from("#box5", {
+            x: 1000,
+            duration: 6,
+            delay: 1,
+            rotate: 360,
+            backgroundColor: "gold",
+            borderRadius: "60%",
+            scale: 0.2,
+        })`
+    </div>
+
+    <div id="box6" class="box">
+        `gsap.from("#box5", {
+            x: 1000,
+            duration: 1,
+            delay: 1,
+            rotate: 360,
+            repeat: -1,
+            yoyo: true
+        })`
+    </div>
+
+    <div class="heading-container">
+        <h1>This is First Heading</h1>
+        <h1>This is Second Heading</h1>
+        <h1>This is Third Heading</h1>
+        <h1>This is Fourth Heading</h1>
+        <h1>This is Fifth Heading</h1>
+    </div>
+
+    <div class="heading-container-1">
+        <h1>This is First Heading</h1>
+        <h1>This is Second Heading</h1>
+        <h1>This is Third Heading</h1>
+        <h1>This is Fourth Heading</h1>
+        <h1>This is Fifth Heading</h1>
+    </div>
+
+
+    <div id="gsap-timeline-section-heading">
+        UnderStand GSAP Timeline
+    </div>
+
+    <div class="timeline-container">
+        <div id="box7">
+            Delay 1 Sec
+        </div>
+
+        <div id="box8">
+            Delay 2 Sec
+        </div>
+
+        <div id="box9">
+            Delay 3 Sec
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
